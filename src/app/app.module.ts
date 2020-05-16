@@ -23,7 +23,7 @@ import { HeaderComponent } from './header/header.component';
 
 
 import { MatButtonModule    } from '@angular/material/button';
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import { MatIconModule, MatIcon } from '@angular/material/icon';
 import { HomeComponent } from './home/home.component';
@@ -44,21 +44,20 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ProfileComponent,
     ExperiComponent,
-    
-    
+
 
   ],
   imports: [
-    BrowserModule,AppRoutingModule,
-    BrowserAnimationsModule, 
+    BrowserModule, AppRoutingModule,
+    BrowserAnimationsModule,
     MatButtonModule, MatIconModule,
 
-    MatCardModule,MatProgressSpinnerModule, MatTooltipModule, MatInputModule, 
+    MatCardModule, MatProgressSpinnerModule, MatTooltipModule, MatInputModule,
     MatSnackBarModule, FormsModule, MatSliderModule,
 
-     LayoutModule, MatToolbarModule, 
+     LayoutModule, MatToolbarModule,
     MatSidenavModule, MatIconModule, MatListModule, MatTableModule, MatPaginatorModule, MatSortModule,
-     MatGridListModule,  MatMenuModule, MatTreeModule, DragDropModule, 
+     MatGridListModule,  MatMenuModule, MatTreeModule, DragDropModule,
      MatCardModule
   ],
   providers: [],

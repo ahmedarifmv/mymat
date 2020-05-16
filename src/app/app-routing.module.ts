@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { ExperiComponent } from './experi/experi.component';
 
 
-const routes: Routes = [ 
+const routes: Routes = [
   {path : '', component: HomeComponent},
   {path : 'experi', component: ExperiComponent}
 
